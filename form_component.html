@@ -22,6 +22,224 @@
   </head>
 
   <body>
+    <div id="container">
+    <header>
+      <div id="topbar">
+        <a href="#menu" class=" fa fa-bars logoo ">
+        
+          <span class="hidden-xs">ADVENTURE TIME: DASHBOARD</span>
+          <span class="hidden-lg visible-xs">ADV.TIME</span>
+        </a>
+        
+          <button class="logout">Logout</button>
+        
+      </div>
+    </header>
+      <div id="sidebar">
+      
+        
+        <ul class="sidebar-menu">
+          <li class="text-center"> <img src="img/profile_avatar.png" alt="" class=" img-prof"> </br> <h5>Bonnibel Bubblegum</h5></li>
+          <li class=""><a href="dashboard.html" ><i class="fa fa-dashboard"></i> Dashboard</a></li>
+          <li><a href="buttons.html" ><i class="fa fa-desktop"></i> Buttons</a></li>
+          <li><a href="progress.html" ><i class="fa fa-desktop"></i> Progress Bar</a></li>
+          <li><a href="form_component.html" class="active"><i class="fa fa-cogs"></i> Forms</a></li>
+          <li><a href="basic_tables.html"><i class="fa fa-th"></i> Data Tables</a></li>
+          <li><a href="gallery.html"><i class="fa fa-th"></i> Gallery</a></li>
+          <li><a href="login.html"><i class="fa fa-book"></i> Login Page</a></li>
+        </ul>
+      </div>
+
+      <div id="main-content"  class="container-fluid" >
+        <h3><i class=" fa fa-chevron-right"></i>Form Components</h3>
+           
+        <div class=" showback">
+          <h4><i class=" fa fa-chevron-right"></i> Form Elements</h4>
+          <form class="form-horizontal" role="form">
+            <div class="form-group">
+              <label for="" class="col-xs-2 control-label">Default</label>
+              <div class="col-xs-10">
+                <input type="text" class="form-control" placeholder="">
+              </div>
+            </div>
+          </form>
+          <hr class="divider">
+          <form class="form-horizontal" role="form">
+            <div class="form-group">
+              <label for="" class="col-xs-2 control-label">Help text</label>
+              <div class="col-xs-10">
+                  <input type="text" class="form-control">
+                  <span class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+              </div>
+            </div>
+          </form>
+          <hr class="divider">
+          <form class="form-horizontal" role="form">
+            <div class="form-group">
+              <label for="" class="col-xs-2 control-label">Rounded</label>
+              <div class="col-xs-10">
+                <input type="text" class="form-control " style="border-radius:50px" placeholder="">
+              </div>
+            </div>
+          </form>
+          <hr class="divider">
+          <form class="form-horizontal" role="form">
+            <div class="form-group">
+              <label for="" class="col-xs-2 control-label">Input Focus</label>
+              <div class="col-xs-10">
+                <input type="text" class="form-control focus"  placeholder="" autofocus>
+              </div>
+            </div>
+          </form>
+          <hr class="divider">
+          <form class="form-horizontal" role="form">
+            <div class="form-group">
+              <label for="" class="col-xs-2 control-label">Disabled</label>
+              <div class="col-xs-10">
+                <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled>            
+              </div>
+            </div>
+          </form>
+          <hr class="divider">
+          <form class="form-horizontal" role="form">
+            <div class="form-group">
+              <label for="" class="col-xs-2 control-label">Placeholder </label>
+              <div class="col-xs-10">
+                <input type="text" class="form-control focus"  placeholder="Placeholder" >
+              </div>
+            </div>
+          </form>
+          <hr class="divider">
+          <form class="form-horizontal" role="form">
+            <div class="form-group">
+              <label for="" class="col-xs-2 control-label">Password</label>
+              <div class="col-xs-10">
+                <input type="password" class="form-control focus"  placeholder="" >
+              </div>
+            </div>
+          </form>
+          <hr class="divider">
+          <form class="form-horizontal" role="form">
+            <div class="form-group">
+              <label for="" class="col-xs-2 control-label">Static Control </label>
+              <div class="col-xs-10">
+                <p class="form-control-static">email@example.com</p>                
+              </div>
+            </div>
+          </form>
+          <hr class="divider">
+        </div>
+
+        <div class=" showback">
+          <h4><i class=" fa fa-chevron-right"></i>  Inline Form</h4>
+          <form class="form-inline">
+              <div class="form-group">
+                  <label class="sr-only" for="inputEmail">Email</label>
+                  <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+              </div>
+              <div class="form-group">
+                  <label class="sr-only" for="inputPassword">Password</label>
+                  <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+              </div>
+              <button type="submit" class="btn ">Login</button>
+          </form>
+        </div>
+
+        <div class=" showback">
+          <h4><i class=" fa fa-chevron-right"></i> Inputs Messages</h4>
+          <form class="form-horizontal">
+              <div class="form-group has-success">
+                  <label class="col-xs-2 control-label" for="inputSuccess">Username</label>
+                  <div class="col-xs-10">
+                      <input type="text" id="inputSuccess" class="form-control" placeholder="Input with success">
+                      <span class="help-block">Username is available</span>
+                  </div>
+              </div>
+              <div class="form-group has-warning">
+                  <label class="col-xs-2 control-label" for="inputWarning">Password</label>
+                  <div class="col-xs-10">
+                      <input type="password" id="inputWarning" class="form-control" placeholder="Input with warning">
+                      <span class="help-block">Password strength: Weak</span>
+                  </div>
+              </div>
+              <div class="form-group has-error">
+                  <label class="col-xs-2 control-label" for="inputError">Email</label>
+                  <div class="col-xs-10">
+                      <input type="email" id="inputError" class="form-control" placeholder="Input with error">
+                      <span class="help-block">Please enter a valid email address</span>
+                  </div>
+              </div>
+          </form>
+        </div>
+
+        <div class=" showback">
+          <h4><i class=" fa fa-chevron-right"></i> Checkboxes, Ratios & Selects </h4>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+              Option one is this and that&mdash;be sure to include why it's great
+            </label>
+          </div>
+          <div class="checkbox disabled">
+            <label>
+              <input type="checkbox" value="" disabled>
+              Option two is disabled
+            </label>
+          </div>
+          <hr class="divider">
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+              Option one is this and that&mdash;be sure to include why it's great
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+              Option two can be something else and selecting it will deselect option one
+            </label>
+          </div>
+          <div class="radio disabled">
+            <label>
+              <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+              Option three is disabled
+            </label>
+          </div>
+          <hr class="divider">
+
+          <label class="checkbox-inline">
+            <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
+          </label>
+          <label class="checkbox-inline">
+            <input type="checkbox" id="inlineCheckbox2" value="option2"> 2
+          </label>
+          <label class="checkbox-inline">
+            <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
+          </label>
+          <hr class="divider">
+
+          <select class="form-control">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+          <hr class="divider">
+
+          <select multiple class="form-control">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+          <hr class="divider">
+        </div>
+          
+      </div> <!--main-content-->
+    </div>
 
    <!--Inserta tu codigo aqui-->
 
