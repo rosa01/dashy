@@ -22,6 +22,180 @@
   </head>
 
   <body>
+    <div id="container">
+    <header>
+      <div id="topbar">
+        <a href="#menu" class=" fa fa-bars logoo ">
+        
+          <span class="hidden-xs">ADVENTURE TIME: DASHBOARD</span>
+          <span class="hidden-lg visible-xs">ADV.TIME</span>
+        </a>
+        
+          <button class="logout">Logout</button>
+        
+      </div>
+    </header>
+      <div id="sidebar">
+      
+        
+        <ul class="sidebar-menu">
+          <li class="text-center"> <img src="img/profile_avatar.png" alt="" class=" img-prof"> </br> <h5>Bonnibel Bubblegum</h5></li>
+          <li class=""><a href="dashboard.html" ><i class="fa fa-dashboard"></i> Dashboard</a></li>
+          <li><a href="buttons.html" ><i class="fa fa-desktop"></i> Buttons</a></li>
+          <li><a href="progress.html" class="active"><i class="fa fa-desktop"></i> Progress Bar</a></li>
+          <li><a href="form_component.html"><i class="fa fa-cogs"></i> Forms</a></li>
+          <li><a href="basic_tables.html"><i class="fa fa-th"></i> Data Tables</a></li>
+          <li><a href="gallery.html"><i class="fa fa-th"></i> Gallery</a></li>
+          <li><a href="login.html"><i class="fa fa-book"></i> Login Page</a></li>
+        </ul>
+      </div>
+
+      <div id="main-content"  class="container-fluid" >
+
+        <div class="row">
+          <div class="col-md-6 "> 
+            <div class="container-fluid">           
+              <div class="row showback">
+                <h4><i class=" fa fa-chevron-right"></i> Basic Progress Bar</h4>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-success" role="progressbar"
+                       aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"
+                       style="width: 40%">
+                    <span class="sr-only">40% completado (éxito)</span>
+                  </div>
+                </div>                 
+                <div class="progress">
+                  <div class="progress-bar progress-bar-info" role="progressbar"
+                       aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"
+                       style="width: 20%">
+                    <span class="sr-only">20% completado</span>
+                  </div>
+                </div>                 
+                <div class="progress">
+                  <div class="progress-bar progress-bar-warning" role="progressbar"
+                       aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+                       style="width: 60%">
+                    <span class="sr-only">60% completado (aviso)</span>
+                  </div>
+                </div>                 
+                <div class="progress">
+                  <div class="progress-bar progress-bar-danger" role="progressbar"
+                       aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
+                       style="width: 80%">
+                    <span class="sr-only">80% completado (peligro / error)</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row showback">
+                <h4><i class=" fa fa-chevron-right"></i>  Stripped progress Bar</h4>
+                <div class="progress progress-striped">
+                    <div class="progress-bar progress-bar-info" style="width: 20%">
+                        <span class="sr-only">20% Used</span>
+                    </div>
+                </div>
+                <div class="progress progress-striped">
+                    <div class="progress-bar progress-bar-success" style="width: 40%">
+                        <span class="sr-only">40% Used</span>
+                    </div>
+                </div>
+                <div class="progress progress-striped">
+                    <div class="progress-bar progress-bar-warning" style="width: 80%">
+                        <span class="sr-only">80% Used</span>
+                    </div>
+                </div>
+                <div class="progress progress-striped">
+                    <div class="progress-bar progress-bar-danger" style="width: 90%">
+                        <span class="sr-only">90% Used</span>
+                    </div>
+                </div>
+              </div>
+
+              <div class="row showback">
+                <h4><i class=" fa fa-chevron-right"></i> Animated Progress Bar</h4>
+                <div class="progress progress-striped active">
+                  <div class="progress-bar" role="progressbar"
+                       aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"
+                       style="width: 45%">
+                    <span class="sr-only">45% completado</span>
+                  </div>
+                </div>              
+              </div>
+
+              <div class="row showback">
+                <h4><i class=" fa fa-chevron-right"></i> Gritter Examples</h4>
+                <p>Click on below buttons to check it out</p>                
+                <button type="button" class="btn btn-default">Regular</button>
+                <button type="button" class="btn btn-success">Sticky</button>
+                <button type="button" class="btn btn-info">Imageless</button>
+                <button type="button" class="btn btn-warning">Light</button>
+                <button type="button" class="btn btn-danger">Remove all</button>             
+              </div>
+
+            </div><!--container-fluid-->
+          </div>
+
+          <div class="col-md-6 "> 
+            <div class="container-fluid">           
+              <div class="row showback">
+                <h4><i class=" fa fa-chevron-right"></i> Alerts Examples</h4>                
+                <div class="alert alert-warning fade in">   
+                    <strong>Warning!</strong> There was a problem with your network connection.
+                </div>
+                <div class="alert alert-danger fade in">   
+                    <strong>Error!</strong> A problem has been occurred while submitting your data.
+                </div>
+                <div class="alert alert-success fade in">   
+                    <strong>Success!</strong> Your message has been sent successfully.
+                </div>
+                <div class="alert alert-info fade in">   
+                    <strong>Note!</strong> Please read the comments carefully.
+                </div>                
+              </div>
+
+              <div class="row showback">
+                <h4><i class=" fa fa-chevron-right"></i> Dismissable alert</h4>
+                <div class="alert alert-warning">
+                    <a href="#" class="close" data-dismiss="alert">&times;</a>
+                    <strong>Warning!</strong> There was a problem with your network connection.
+                </div>
+              </div>
+
+              <div class="row showback">
+                <h4><i class=" fa fa-chevron-right"></i> Badges</h4>
+                <p> 
+                  <span class="badge">5</span>
+
+                  <span class="badge">10</span>
+                  <span class="badge">15</span>
+                  <span class="badge">20</span>
+                  <span class="badge">25</span>
+                  <span class="badge">30</span>
+                  <span class="badge">35</span>
+                </p>
+                
+              </div>
+
+              <div class="row showback">
+                <h4><i class=" fa fa-chevron-right"></i> Labels</h4>
+                <span class="label label-default">Default</span>
+                <span class="label label-primary">Primary</span>
+                <span class="label label-success">Success</span>
+                <span class="label label-info">Info</span>
+                <span class="label label-warning">Warning</span>
+                <span class="label label-danger">Danger</span>               
+              </div>
+
+            </div><!--container-fluid-->
+          </div>
+          
+          
+          
+        </div> <!--row-->
+      </div> <!--main-content-->
+    </div>
+
+
 
     <!--Inserta tu codigo aqui-->
 
