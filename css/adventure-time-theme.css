@@ -957,6 +957,7 @@ label {
 }
 .login-wrap .registration {
     text-align: center;
+    margin-top: 15px;
 }
 .login-social-link {
     display: block;
